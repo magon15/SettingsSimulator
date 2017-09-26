@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/settings_info_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/settings_info_image_view"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/settings_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        tools:text="BROADCAST_INTENT_HELLO"
+        />
+
+    <TextView
+        android:id="@+id/settings_info_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_info_title"
+        android:textSize="10dp"
+        tools:text="modifies the broadcast intent hello"
+        tools:textStyle="italic"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

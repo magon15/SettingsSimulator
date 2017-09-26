@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="airplane_mode_desc">Ang broadcast para sa eroplano ay aktibo.</string>
+    <string name="airplane_mode_on_description">May broadcast intent na mati-trigger kapag ika\'y nasa eroplano</string>
+    <string name="airplane_mode_on_title">Broadcast para sa eroplano</string>
+    <string name="headset_desc">Ang headset broadcast ay aktibo.</string>
+    <string name="headset_info_title">Headset</string>
+    <string name="headset_plugged_description">Ang broadcast intent na ito ay magagamit kapag nakasaksak ang headphones</string>
+    <string name="headset_plugged_title">Broadcast para sa headset</string>
+    <string name="off">nakasara.</string>
+    <string name="on">nakabukas.</string>
+    <string name="plugged">nakasaksak.</string>
+    <string name="power_info_desc">Binuksan mo ang device nang %1$s na beses habang ika\'y nasa app</string>
+    <string name="power_info_title">Power</string>
+    <string name="power_description">Nagti-trigger ng broadcast kapag binuksan ang phone.</string>
+    <string name="power_title">Broadcast para sa pag-power on</string>
+    <string name="unplugged">nakatanggal sa saksak</string>
+    <string name="airplane_info_title">Eroplano</string>
+    <string name="settings_info_airplane_disabled">Hindi aktibo ang broadcast para sa eroplano.</string>
+    <string name="settings_info_headset_disabled">Hindi aktibo ang broadcast para sa iyong headset.</string>
+    <string name="settings_info_power_disabled">Hindi aktibo ang broadcast para sa pagbukas ng phone. Ibinalik sa 0 ang powerCount.</string>
+</resources>

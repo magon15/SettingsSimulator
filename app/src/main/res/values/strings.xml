@@ -1,0 +1,42 @@
+<resources>
+    <string name = "app_name">Settings Simulator</string>
+        <string name = "power_title">Power on broadcast</string>
+        <string name = "power_description">Triggers a broadcast intent when phone is powered on</string>
+        ing>
+        <string name="airplane_mode_on_title">Airplane mode broadcast</string>
+        <string name = "airplane_mode_on_description">A broadcast intent is triggered when airplane mode is on</string>
+        <string name = "headset_plugged_title">Headset plugged broadcast</string>
+        <string name = "headset_plugged_description">Using a headphone? This broadcast intent will do the job.</string>
+
+        <string name = "power_info_title">Power</string>
+        <string name = "power_info_desc">You turned on the device for %1$s times while this app was on the foreground. </string>
+        <string name = "airplane_info_title">Airplane mode</string>
+        <string name = "airplane_mode_desc">Airplane mode broadcast is active. </string>
+        <string name = "headset_info_title">Headset</string>
+        <string name = "headset_desc">Headset broadcast is active. </string>
+
+    <string-array name="settings_info_title">
+        <item>@string/power_info_title</item>
+        <item>@string/airplane_info_title</item>
+        <item>@string/headset_info_title</item>
+    </string-array>
+
+    <string-array name="settings_info_desc">
+        <item>@string/power_info_desc</item>
+        <item>@string/airplane_mode_desc</item>
+        <item>@string/headset_desc</item>
+    </string-array>
+
+    <string name = "settings_info_airplane_disabled">Airplane mode broadcast is turned off.</string>
+    <string name = "settings_info_headset_disabled">Headset broadcast is turned off.</string>
+    <string name = "settings_info_power_disabled">Power broadcast disabled. Screen on count reset to 0.</string>
+
+    <string-array name="settings_info_desc_disabled">
+        <item>@string/settings_info_power_disabled</item>
+        <item>@string/settings_info_airplane_disabled</item>
+        <item>@string/settings_info_headset_disabled</item>
+    </string-array>
+
+
+
+</resources>
